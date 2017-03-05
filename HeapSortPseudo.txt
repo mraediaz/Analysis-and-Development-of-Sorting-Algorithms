@@ -1,0 +1,38 @@
+PARENT(i)
+1 	return floor(i/2)
+
+LEFT(i)
+1 	return 2i
+
+RIGHT(i)
+1 	return 2i + 1
+
+
+MAX-HEAPIFY(A,i)
+
+1	l = LEFT(i)
+2 	r = RIGHT(i)
+3	if l <= A.heap-size and A[l] > A[i]
+4		largest = l
+5	else largest = i
+6	if r <= A.heap-size and A[r] > A[largest]
+7		largest = r
+8	if largest != i
+9		exchange A[i] with A[largest]
+10		MAX-HEAPIFY(A, largest)
+
+
+BUILD-MAX-HEAP(A)
+
+1 	A.heap-size = A.length
+2 	for i = floor(A.largest/2) down to 1
+3		MAX-HEAPIFY(A,i)
+
+
+HEAPSORT(A)
+
+1 	BUILD-MAX-HEAP(A)
+2 	for i = A.length down to 2
+3		exchange A[1] with A[i]
+4		A.heap-size = A.heap-size - 1
+5		MAX-HEAPIFY(A, 1)

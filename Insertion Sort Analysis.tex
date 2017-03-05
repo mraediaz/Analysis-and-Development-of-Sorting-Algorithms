@@ -1,0 +1,314 @@
+\documentclass[12pt]{article}
+
+\author{Melany Diaz}
+\title{Insertion Sort Analysis}
+\date{\today}
+
+% math
+\usepackage{amsmath,amssymb}
+%\usepackage{amsthm} % uncomment to enable theorem environment
+
+\usepackage{listings}%used to present classes and java code
+
+\usepackage{indentfirst}
+
+\usepackage{graphicx}
+
+% 1 inch margins
+\usepackage[margin=1in]{geometry}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{CS 215}
+\chead{Insertion Sort Analysis}
+\rhead{Melany Diaz}
+
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+	
+	Using a program made for this report, this report will be validating and analyzing the run-time complexity of Insertion Sort. By implementing the Insertion Sort algorithm in a class, we will analyze and compare the complexity behaviors of best case, worse case, and average case run times for multiple arrays of varying size n.   
+\end{abstract}
+\section*{MOTIVATION AND BACKGROUND}
+
+	\indent By definition, an algorithm is a well-defined computational procedure that takes some value, or set of values, as input and produces some value, or set of values as output. Some algorithms, such as sorting random objects, can seem very intuitive and straight-forward to a person. However, to a computer, sorting a collection of objects can be a complex and strenuous process.\\
+	
+	One of the most important aspects of an algorithm is how fast it is, or its time complexity. Algorithm speed is essential for a timely and effective execution of a program. In some cases, the use of an appropriately implemented, well-written algorithm can make the slowest computer execute a program faster than the fastest computer using a poorly used and written algorithm. In a world where instant results are expected form a computer, effective algorithms can be more valuable than the most advanced hardware. \\
+	
+	Since the exact speed of an algorithm depends on the details of its implementation, the run-time of an algorithm is typically discussed in terms of the size of its input. For example, if the algorithm must process N objects, it might have a run-time proportional to $O(N^2)$ (i.e. Insertion Sort) or $O(NlgN)$ (i.e. Merge Sort) However, the execution time of many sorting algorithms can vary due to factors other than the size of the input. For example, if a sorting algorithm must sort a set of objects that are already in sorted order, it would take much less time to re-organize than a set of objects in random order. Consequently, when analyzing the time complexity of an algorithm, one must keep in mind that algorithm's best case, worst case, and average case run-times. Typically, the best case is when an algorithm is given a collection of objects to sort that is already in sorted order, it's worst case is when it is given a collection of objects sorted in the opposite order, and it's average case is when it is given a collection sorted in no particular order.	\\
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%% this is my thesis parragraph, I need help figuring out where this should go %%
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	There exists many different kinds of algorithms used to sort objects such as Bubble Sort, Quick Sort, or Insertion Sort. Each of these have their own benefits and disadvantages, as well as particular moments when it would be more appropriate to use one sort style versus another. Because of this, it is important for a computer scientist to familiarize themselves with the different run-time behaviors and complexities of each. The purpose of this report is to study and analyze the complexity of InsertionSort. By creating a class that implements InsertionSort to sort different objects, we will be validating and comparing the run-time behaviors of the class with the asymptotic run-time complexity of Insertion Sort.\\
+	
+	By executing this program and comparing the run-time behaviors of InsertSort's best, worst, and average cases, we hope to gain a better understanding of run-time complexities and asymptotic run-times. We also hope to address the following questions:
+	
+	
+\begin{itemize}
+
+	\item What inputs are required to generate average complexity? How about best and worst cases?
+	\item How do you create your test driver so that it exercises your programs?
+	\item How do you create the sorting class so that it will be extensible and re-usable for future projects? 
+	\item What input size $n_0$ is required to begin to exhibit asymptotic complexity?
+	\item How does measured run-time correspond to operation counts that we use in abstract complexity analysis? 
+		
+\end{itemize}
+
+
+\section*{PROCEDURE}
+There were two things that I had to consider when creating this program: Making a user-friendly program that could be easily used in future projects, and appropriately implementing and calling on an Insertion Sort method. \\
+
+I knew that this program had to be extensible and re-usable for our future projects. Consequently, I built my program following an Object Oriented Design; any methods specific to a sorting style were created in a class outside of the main class. Thus, the main class is solely responsible of making objects and executing methods on them. I also wanted my program to be very user friendly and easy for the user to have some say and understanding of the results. As such, the main class is also responsible for getting user inputs from a scanner (such as size, or whether the user would like to see a printed version on the arrays) and printing the results (such as the timing of each method)\\
+
+Here are two examples of user involvement with my program:
+
+\includegraphics[]{UserInvolvement}
+A user specifying what size the arrays to be sorted should be and choosing to see them printed out
+
+\vspace*{.5in}
+\includegraphics[]{UserInvolvement2}
+A user specifying what size the arrays to be sorted should be and choosing not to see them printed out
+\vspace*{.5in}
+
+Before considering how to implement the InsertSort method to my arrays, I had to find a way to make three arrays, one for the average, best, and worst cases. These are some questions I had to answer in order to correctly create these arrays:
+
+\begin{itemize}
+	\item What inputs are required to generate average complexity?
+	\item What about best-case complexity?
+	\item What about worst-case complexity?
+\end{itemize}
+
+The answer to these three questions lied in how I generated my average complexity array. In order to make the average array used for this, I asked the user to specify how large the array should be, and then proceeded to make an array of that size with random elements (most often integers).
+After succeeding in making the \textit{average[]} array (a better name would be random) I used it to make the arrays for best and worst case. \\
+
+For insertion sort, the best case scenario would be an array whose elements were already sorted in increasing order. This called for making an array, called \textit{increasing[]} whose elements were sorted already. To make such an array, I implemented the \textit{InsertionSort} class (more details following) sorted \textit{average[]} and saved it as \textit{increasing[]}.\\
+
+Similarly, the worst case scenario for insertion sort is an array whose elements are sorted in decreasing order. As above, I made the third array, called \textit{decreasing[]} whose elements were sorted in decreasing order. To make this array, I implemented the \textit{InsertionSortDecreasoing} class, and used it to sort \textit{average[]} and saved it under \textit{decreasing[]}.\\
+
+In order to make the \textit{InsertionSort} and \textit{InsertionSortDereasing} classes, I closely followed the pseudocode for InsertSort, making sure to correctly implement the invariant, and pre and post conditions.
+
+\vspace*{.2in}
+Pseudocode for Insertion Sort: \\
+\vspace*{.5in}
+\includegraphics[]{INSERTION-SORT}
+%\vspace*{.2in}
+
+Loop Invariant for Insertion Sort: At the start of each iteration of the \textbf{for} loop of lines 1-8, the subarray $A'[1 .. j-1]$ consists of the elements originally in $A[1 .. j-1]$, but in  sorted order.\\
+
+Input and Output for Insertion Sort:\\ \textbf{Input: } A sequence of $n$ numbers $<a'_ \le a'_2 \le ... \le a'_n>$. \\
+\textbf{Output: } a permutation (reordering) $<a'_, a'_2, ... , a'_n>$ of the input sequence such that $<a'_ \le a'_2 \le ... \le a'_n>$.
+
+Insertion Sort pre-condition: An array, $A$, that must be sorted
+
+Insertion Sort post-condition: An array, $A'$, such that $A'$ is a permutation of $A$ where $\forall m, n \in {1..n}, m < n \implies A'[m] \le A'[n]$ where $n$ is the size of the array.\\
+
+In order to illustrate the correct usage of program headers and the implementation of my pre/post conditions and invariant in my program, here is an image of my InsertSort method: 
+
+\includegraphics[]{myInsertSort}
+
+After completing these tasks, I implemented a method that could time how long it took to sort my three arrays using InsertSort. 
+
+
+
+\section*{TESTING}
+Program testing is the process used to help identify the correctness, completeness, and quality of a class. The process of testing involves executing a program with the intent of finding errors and bugs. One of our goals for this project was to find a way to create a test driver so that it exercised my programs. In order to do so and test my program, I tried to find any bugs that my classes might encounter when tackling edge cases or unexpected bounds. The following matrix shows the tests I put my program through, my expected result, the actual result, and how I fixed it. 
+
+	
+	\begin{tabular}{|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|}
+	\hline
+	Test & Expected Result & Actual Result & Remedy\\
+	\hline
+	Array of length zero* & A new User prompt asking for an input greater than 0 & As expected & N/A\\
+	\hline	
+	Array of negative length* & A new User prompt asking for a positive integer & As expected & N/A\\
+	\hline
+	Array with just one element  & Since an array of size one is already sorted, I expect that the times for Best, Worst, Average will be the same & After multiple trials, the results were either the same time, or a time differing by (at most) 2000 nanoseconds & Since the times were never more than 2000 nanoseconds apart from each other, I think it is safe to assume that those seconds come from the \textit{TimeToSort()} method, rather than the actual \textit{InsertSort} method itself. \\
+	\hline
+	Array with null items  & Since the user \textit{has} to input an array size, I don't think a null array could be made. This was also confirmed during the assertion phase of the coding process & As Expected & N/A \\
+	\hline
+	Passing a letter or character as Array size & My program will probably throw an exception since the scanner was expecting and integer & As expected & Implemented a while loop to guarantee that the user inputs a valid integer as an array size (See Image) \\
+	\hline
+	Replying anything other than "Y" to second prompt & The program will assume that the user does not want to see the array printed out & As expected & N/A \\
+	\hline
+	\end{tabular}
+	
+	*Further explained in following section.
+	
+	\vspace*{.5in}
+	The following demonstrates how the program would react if the user were to input an array of negative size or size 0.
+	
+	\includegraphics{zeroandnegativeinputs}
+	\vspace*{.5in}
+	
+	Receiving an inappropriate input from the user for the array size was not something that had occured to me as I began coding. Thus, if the user ever inserted any response other than an integer, my program would throw an exception:
+	
+	\includegraphics[]{BadInput}
+	\vspace*{.5in}
+	
+	After realizing this, I implemented a solution that involved a guaranteed integer from the user for the array size: 
+	
+	\includegraphics[]{SolutionBadInput}
+	\vspace*{.5in}
+
+	
+
+\subsection*{PROBLEMS ENCOUNTERED}
+
+As with any programming project, a programmer must be able to keep track of any problems encountered and of the solutions found to encouter them. Following is a description of the problems I found while programming my classes and how I chose to tackle them. 
+
+\subparagraph{Copying the Arrays}
+In order to make an array for best, worst, and average cases I was making an array full of random numbers (and calling it my average array) and then using that array to make my increasing array (best case) and decreasing array (worst case) \\
+
+Originally I was setting my increasing and decreasing arrays equal to my average array and working from there. It didn't take me long to realize that I was making my code work with the same array, called by three different names, rather than working with three different arrays, each with their own name. \\
+
+After reading the Array Documentation, I learned that for what I was doing, I shouldn't be setting arrays equal to each other, but rather using the \textit{copyOf()} method. Thus, I learned that I should replace a line such as 
+\begin{description}
+	\item[] \textit{increasing = average;}
+\end{description}	
+
+\noindent with the more appropriate method
+
+\begin{description}
+	 \item[] \textit{increasing = Arrays.copyOf(average, n);}
+ \end{description}
+ Where $n$ is the number of elements in the array.
+
+\subparagraph{Printing out the Arrays for testing}
+In order to see if my program was working, I thought it would be practical to print out each array to see how they had handled the sorting method. Originally, I tried to write my own print method using a for loop. After a while of realizing that was not a very good idea, I consulted the Array documentation and found that there already exists a \textit{toString()} method for arrays. Naturally, I decided to use that. \\
+
+After testing whether my code worked or not, it wasn't entirely necessary to print out the arrays. However, I thought seeing the arrays was very helpful, and decided to give the user the option to see them or not. Since the arrays can get very large, I wanted to limit the display option to arrays of size smaller than 20. Even though finding the \textit{toString()} method was originally supposed to be part of my testing and debugging phase, I'm glad I discovered it, since I used it later on for this componenet of my program.
+
+\subparagraph{Dealing with Arrays of Negative or Empty Size}
+The precondition to InsertionSort is that you much have an array that must be sorted. Since I implemented my code so that the user could decide how many elements the arrays should have, I risked the user ordering an array of negative size, or an empty array (an array of size 0). \\
+
+Before I found a solution to this, I would run into null-pointer exceptions and array size exceptions if the user were to make the array of these sizes. 
+
+\vspace*{.5in}
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{negativeSize}
+
+\vspace*{.5in}
+In order to avoid this problem, I decided to implement a while loop that would guarantee that my user inputed a number greater than zero. The results were as expected. 
+
+\vspace*{.5in}
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{sizeSolution} 
+\vspace*{.5in}
+
+\subparagraph{Changing form Integers to Comparables}
+I originally coded my program so that it would use arrays full of integers ranging from 0-9. I did this strategically so that I could use inequalities in my comparisons and logically organize the arrays from the smallest integer to the largest, as well as easily fill my average array with random integers. The assignment specifications, however, required us to use Comparable Objects, and use the compareTo() method in our InsertionSort. After confirming my original code worked, I tackled the task of changing my arrays to be from int[] to Comparable[] and accordingly change all int variables to become Integer variables. \\
+The biggest issue I encountered while doing this was not using compareTo() rather than inequalities (as I had previously expected) but it was to fill my arrays with random Comparable Objects. Originally I had used a random number generator to make my arrays with random integers (which I could then use as my average, best, and worst cases)  However, there does no exist a random comparable object generator, and finding a way to implement an array with random Comparable Objects was not as straightforward as I had hoped. \\
+In the interest of time, I decided the most practical solution to this problem was to use the fact that Integer is a Comparable Object, and implemented my Comparable arrays to use Integers as their elements. Had I had more time or incentive to find an accurate way to fill an array with comparable objects, I'm sure that I could have. However, due to lack of time, I reasoned that using Integer values would suffice for the project.
+
+\subparagraph{Problem Saving Classes}
+After implementing my code to demonstrate the use of pre and postconditions in my methods, I kept receiving an error that would prevent me from saving or running my class. 
+
+\vspace*{.5in}
+\includegraphics{problemSaving}
+\vspace*{.5in}
+
+After a little troubleshooting, I learned that this error showed whenever there was a character in the code that Java couldn't read. After searching through my class, I found that in the comments, I was using $\forall$ and $\exists$ in my comments to talk about my conditions. 
+
+\vspace*{.5in}
+\includegraphics[]{problemSavingReason}
+\vspace*{.5in}
+
+After I replaced those two characters with "for all" and "there exists" I was able to save an run my classes without any problems.
+
+
+\section*{EXPERIMENTAL ANALYSIS AND ASYMPTOTIC RUN-TIME COMPARISON}
+After confirming that the program does meet every post condition, and that the program produces the required results, the last thing to do is compare the run-time complexity of the program with the asymptotic run-time complexity of InsertSort. To compare the two run-times, I ran my program for different input sizes, $n$. In order to gain an accurate estimate of the timings of each run, I gathered the average of three runs per each $n$ (see Appendix D). Due to the scaling of the graph, and the $n$ elements chosen to test Insertion Sort, my graphs do not appear as expected (A group of plotting point bellow $n_0$ that seem hap-hazardous and after $n_0$ a more persistent tie to the asymptotic line). Because of this outcome, I decided to use Microsoft Excel's \textit{trend line} function, which takes a set a data points and estimates their corresponding function as accurately as possible. Using this,  I found that even though my data points weren't visually as expected, mathematically they were. The following subsections will describe my results for the average, best, and worst cases of Insert Sort.\\
+
+\includegraphics[]{DataToPlot}
+
+\subsection*{Best Case}
+Asymptotically, the best case input for insertion sort is an array that is already sorted in increasing order. In this case, Insert Sort typically has linear running time (i.e. O($cn$)) Where $c$ is a constant.  
+
+\includegraphics[]{bigO}
+Visual representation of best case: O($n$)\\
+
+After plotting the best case data points found using the program, I found the trend line of the plotting to be $y=173010n-459578$ which agrees with the asymptotic run-time, implying that $c = 173010$. 
+
+\includegraphics[]{BestCaseGraph}
+
+ Just by visually estimating from the graph and data table(s), I would confidently assume that $n_0$ happens around $n = 50$.
+
+
+
+\subsection*{Worst Case}
+Asymptotically, The worst case input for insertion sort is an array that is sorted in the opposite order, in this case decreasing order. In this case, every iteration of the method will scan and shift the entire sorted subarray before continuing, thus producing a quadraic running time (i.e. O($cn^2$)) Where $c$ is a constant.
+
+\includegraphics[]{bigOSquared}
+Visual representation of worst case: O($n^2$)\\
+
+After plotting the worst case data points found using the program, I found the trend line of the plotting to be $y=(8E+08)n^2 -(6E+09)n+7E+09$ which agrees with the asymptotic run-time, implying that $c = 8E+08$. 
+
+\includegraphics[]{WorstCaseGraph}
+
+Just by visually estimating from the graph and data table(s), I would confidently assume that $n_0$ happens around $n = 100$.
+
+\subsection*{Average Case}
+The asymptotic average case for insertion sort is typically also quadraic, due to the implementation of the method. Thus, like with the worst-case behavior, the asymptotic running time of the  average case is O($cn^2$), Where $c$ is a constant.
+
+\includegraphics[]{bigOSquared}
+Visual representation of worst case: O($n^2$)\\
+
+After plotting the average case data points found using the program, I found the trend line of the plotting to be $y=7E+09N^2 - 5E+09N + 6E+09$ which agrees with the asymptotic run-time, implying that $c = 7E+0$. 
+
+\includegraphics[]{AverageCaseGraph}
+
+As with Worst-Case, just by visually estimating from the graph and data table(s), I would confidently assume that $n_0$ happens around $n = 100$.
+
+\section*{CONCLUSIONS}
+
+After constructing an InsertSort program and using it to analyze its run-time behaviors, we were able to compare its results to the asymptotic run-time complexities for best, worst, and average cases. With a better understanding of run-time complexities and asymptotic run-times, we have learned how to generate different complexities, implement and scrutinize a class so that it surpasses an intensive testing phase, and have extensively understood the Insertion Sort algorithm and its corresponding run-time complexities.
+\pagebreak
+
+\section*{APPENDIX A: Main Class}
+The following is the Java class written for the main class. This uses the InsertSort and InsertSortDecreasing classes provided for in the following appendices. This class is responsible for making the array that will be sorting them, and printing the times it took to sort them using the other classes.
+
+\hrulefill 
+\lstinputlisting[language=java, breaklines = true]{sortingAnalysis.txt}
+\pagebreak
+
+\section*{Appendix B: InsertionSort Class}
+
+The following is the Java class written for Insertion Sort. This class provides a method that uses the Insertion Sort algorithm. The method produces a permutation of the array to be sorted with all of the elements sorted in increasing order. \\
+
+Written in accord with the corresponding pseudocode, this class requires an array that must be sorted and will produce another array, based off of the original and with the same elements, but in sorted order: going from lowest to highest. \\
+
+Since the assignment requires a timing mechanism to be able to time how long it takes to execute an InsertSort method, this class provides a second method, which times the execution process. 
+
+\hrulefill 
+\lstinputlisting[language=java, breaklines = true]{Insertionsort.txt}
+\pagebreak
+
+\section*{Appendix C: InsertionSortDecreasing Class}
+
+The following is the Java class written for Insertion Sort in Decreasing order. This class provides a method that uses the InsertionSortDescending algorithm. The method produces a permutation of the array to be sorted with all of the elements sorted in decreasing order. \\
+
+Written in accord with the corresponding pseudocode, this class requires an array that must be sorted and will produce another array, based off of the original and with the same elements, but in sorted order: going from highest to lowest. \\
+ 
+
+\hrulefill 
+\lstinputlisting[language=java, breaklines = true]{insertionSortDecreasing.txt}
+\pagebreak
+
+\section*{Apprendix D: Data Analysis for Comparisons}
+In order to gain an accurate estimate of the timings of each run, I gathered the average of three runs per each $n$. The following shows the data received for each run and how the average was estimated.\\
+\includegraphics{appendixd}
+\pagebreak
+\section*{REFERENCES}
+
+Cormen, Thomas H. Introduction to algorithms. MIT press, 2009.\\
+
+Lbackstrom. "The Importance of Algorithms – Topcoder." The Importance of Algorithms – Topcoder. Accessed January 31, 2016. https://www.topcoder.com/community/data-science/data-science-tutorials/the-importance-of-algorithms/.\\
+
+"Nairaland Forum." The Importance Of Software Testing And Not Just Software Programming. April 01, 2008. Accessed January 31, 2016. http://www.nairaland.com/124053/importance-software-testing-not-just.
+
+\end{document}

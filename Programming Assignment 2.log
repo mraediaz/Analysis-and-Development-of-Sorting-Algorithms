@@ -1,0 +1,1252 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.1.24)  12 MAR 2016 19:17
+entering extended mode
+**"./Programming Assignment 2.tex"
+("Programming Assignment 2.tex"
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9n> and hyphenation patterns for 69 languages loaded.
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
+y"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
+y"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks15
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.s
+ty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.
+sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.
+sty"
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
+y"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+\lst@mode=\count99
+\lst@gtempboxa=\box28
+\lst@token=\toks20
+\lst@length=\count100
+\lst@currlwidth=\dimen112
+\lst@column=\count101
+\lst@pos=\count102
+\lst@lostspace=\dimen113
+\lst@width=\dimen114
+\lst@newlines=\count103
+\lst@lineno=\count104
+\lst@maxwidth=\dimen115
+
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.s
+ty"
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count105
+\lst@skipnumbers=\count106
+\lst@framebox=\box29
+)
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.
+cfg"
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\indentfirst.
+sty"
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
+sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
+sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\graphics.
+cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.
+def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
+rr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
+.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count107
+))
+\Gin@req@height=\dimen116
+\Gin@req@width=\dimen117
+)
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
+sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
+ty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.
+sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.
+sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count108
+\Gm@cntv=\count109
+\c@Gm@tempcnt=\count110
+\Gm@bindingoffset=\dimen118
+\Gm@wd@mp=\dimen119
+\Gm@odd@mp=\dimen120
+\Gm@even@mp=\dimen121
+\Gm@layoutwidth=\dimen122
+\Gm@layoutheight=\dimen123
+\Gm@layouthoffset=\dimen124
+\Gm@layoutvoffset=\dimen125
+\Gm@dimlist=\toks21
+
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
+cfg"))
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.
+sty"
+\fancy@headwidth=\skip46
+\f@ncyO@elh=\skip47
+\f@ncyO@erh=\skip48
+\f@ncyO@olh=\skip49
+\f@ncyO@orh=\skip50
+\f@ncyO@elf=\skip51
+\f@ncyO@erf=\skip52
+\f@ncyO@olf=\skip53
+\f@ncyO@orf=\skip54
+) ("Programming Assignment 2.aux")
+\openout1 = `"Programming Assignment 2.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+\c@lstlisting=\count111
+
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
+ii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count112
+\scratchdimen=\dimen126
+\scratchbox=\box30
+\nofMPsegments=\count113
+\nofMParguments=\count114
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count115
+\MPscratchDim=\dimen127
+\MPnumerator=\count116
+\makeMPintoPDFobject=\count117
+\everyMPtoPDFconversion=\toks23
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 30.
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 30.
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+ []
+
+[1
+
+{C:/Users/owner/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
+
+ []
+
+
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.
+sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) (InsertionSortPseudo.txt
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 7.
+
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 7.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+<InsertSortPhoto.jpg, id=19, 498.36188pt x 442.95488pt>
+File: InsertSortPhoto.jpg Graphic file (type jpg)
+
+<use InsertSortPhoto.jpg>
+Package pdftex.def Info: InsertSortPhoto.jpg used on input line 80.
+(pdftex.def)             Requested size: 498.36066pt x 442.9538pt.
+
+Overfull \hbox (46.23045pt too wide) in paragraph at lines 80--81
+[][] 
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+[4 <./InsertSortPhoto.jpg>] (MergeSortPseudo.txt)
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
+ []
+
+[5]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+ []
+
+<MergeSortPhoto1.jpg, id=29, 507.69675pt x 305.34074pt>
+File: MergeSortPhoto1.jpg Graphic file (type jpg)
+
+<use MergeSortPhoto1.jpg>
+Package pdftex.def Info: MergeSortPhoto1.jpg used on input line 113.
+(pdftex.def)             Requested size: 507.69551pt x 305.34pt.
+ <MergeSortPhoto2.jpg, id=30, 461.3235pt x 436.029pt>
+File: MergeSortPhoto2.jpg Graphic file (type jpg)
+
+<use MergeSortPhoto2.jpg>
+Package pdftex.def Info: MergeSortPhoto2.jpg used on input line 114.
+(pdftex.def)             Requested size: 461.32237pt x 436.02792pt.
+
+Overfull \hbox (55.5653pt too wide) in paragraph at lines 113--115
+[][]
+ []
+
+[6 <./MergeSortPhoto1.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
+
+ []
+
+[7 <./MergeSortPhoto2.jpg>] (HeapSortPseudo.txt)
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
+ []
+
+<HeapSortPhoto1.jpg, id=41, 516.7305pt x 347.19713pt>
+File: HeapSortPhoto1.jpg Graphic file (type jpg)
+ <use HeapSortPhoto1.jpg>
+Package pdftex.def Info: HeapSortPhoto1.jpg used on input line 144.
+(pdftex.def)             Requested size: 516.72923pt x 347.19627pt.
+
+<HeapSortPhoto2.jpg, id=42, 442.0515pt x 280.34738pt>
+File: HeapSortPhoto2.jpg Graphic file (type jpg)
+ <use HeapSortPhoto2.jpg>
+Package pdftex.def Info: HeapSortPhoto2.jpg used on input line 145.
+(pdftex.def)             Requested size: 442.05042pt x 280.34668pt.
+
+Overfull \hbox (64.59903pt too wide) in paragraph at lines 144--146
+[][]
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+[10 <./HeapSortPhoto1.jpg> <./HeapSortPhoto2.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--155
+
+ []
+
+(QuickSortPseudo.txt)
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 173--175
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+
+ []
+
+<QuickSortPhoto1.jpg, id=52, 473.3685pt x 299.61937pt>
+File: QuickSortPhoto1.jpg Graphic file (type jpg)
+
+<use QuickSortPhoto1.jpg>
+Package pdftex.def Info: QuickSortPhoto1.jpg used on input line 180.
+(pdftex.def)             Requested size: 473.36734pt x 299.61864pt.
+
+<QuickSortPhoto2.jpg, id=53, 396.58162pt x 246.62137pt>
+File: QuickSortPhoto2.jpg Graphic file (type jpg)
+
+<use QuickSortPhoto2.jpg>
+Package pdftex.def Info: QuickSortPhoto2.jpg used on input line 181.
+(pdftex.def)             Requested size: 396.58064pt x 246.62076pt.
+
+Overfull \hbox (21.23714pt too wide) in paragraph at lines 180--182
+[][]
+ []
+
+[12 <./QuickSortPhoto1.jpg>] [13 <./QuickSortPhoto2.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+[]\OT1/cmr/m/n/12 Array of length
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 193--193
+[]\OT1/cmr/m/n/12 program con-tin-ues
+ []
+
+
+Underfull \hbox (badness 3623) in paragraph at lines 193--193
+\OT1/cmr/m/n/12 In-sert Sort) This
+ []
+
+
+Underfull \hbox (badness 5970) in paragraph at lines 193--193
+\OT1/cmr/m/n/12 didn't cause any
+ []
+
+
+Underfull \hbox (badness 3536) in paragraph at lines 193--193
+\OT1/cmr/m/n/12 prob-lem. Other
+ []
+
+
+Underfull \hbox (badness 3872) in paragraph at lines 193--193
+\OT1/cmr/m/n/12 sorts, like Merge
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+[]\OT1/cmr/m/n/12 The ex-cep-tion
+ []
+
+
+Underfull \hbox (badness 6268) in paragraph at lines 193--194
+\OT1/cmr/m/n/12 sorts re-quire the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+\OT1/cmr/m/n/12 di-vided in half,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+\OT1/cmr/m/n/12 and 0/2 is out
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 193--194
+\OT1/cmr/m/n/12 of bounds. The
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+\OT1/cmr/m/n/12 so-lu-tion to this
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 193--194
+\OT1/cmr/m/n/12 was found by in-
+ []
+
+
+Underfull \hbox (badness 5817) in paragraph at lines 193--194
+\OT1/cmr/m/n/12 sert-ing an as-sert
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+\OT1/cmr/m/n/12 state-ment that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+\OT1/cmr/m/n/12 would guar-an-tee
+ []
+
+
+Underfull \hbox (badness 4254) in paragraph at lines 193--194
+\OT1/cmr/m/n/12 the ar-rays would
+ []
+
+
+Underfull \hbox (badness 4316) in paragraph at lines 193--194
+\OT1/cmr/m/n/12 never an-a-lyze an
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 195--195
+[]\OT1/cmr/m/n/12 Array of neg-a-tive
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+[]\OT1/cmr/m/n/12 Implemented the
+ []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 195--196
+\OT1/cmr/m/n/12 ar-ray of neg-a-tive
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+\OT1/cmr/m/n/12 sorted, I ex-pect
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+\OT1/cmr/m/n/12 that the times
+ []
+
+
+Underfull \hbox (badness 6477) in paragraph at lines 197--197
+\OT1/cmr/m/n/12 for Best, Worst,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[]\OT1/cmr/m/n/12 After mul-ti-ple
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 197--197
+\OT1/cmr/m/n/12 tri-als, the re-sults
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+\OT1/cmr/m/n/12 were ei-ther the
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 197--197
+\OT1/cmr/m/n/12 same time, or a
+ []
+
+
+Underfull \hbox (badness 4954) in paragraph at lines 197--197
+\OT1/cmr/m/n/12 time dif-fer-ing by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+\OT1/cmr/m/n/12 (at most) 2000
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+[]\OT1/cmr/m/n/12 Since the times
+ []
+
+
+Underfull \hbox (badness 6428) in paragraph at lines 197--198
+\OT1/cmr/m/n/12 were never more
+ []
+
+
+Underfull \hbox (badness 8075) in paragraph at lines 197--198
+\OT1/cmr/m/n/12 onds apart from
+ []
+
+
+Underfull \hbox (badness 2865) in paragraph at lines 197--198
+\OT1/cmr/m/n/12 it is safe to as-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+\OT1/cmr/m/n/12 sume that those
+ []
+
+
+Underfull \hbox (badness 6300) in paragraph at lines 197--198
+\OT1/cmr/m/n/12 the \OT1/cmr/m/it/12 Time-ToSort()
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+\OT1/cmr/m/n/12 method, rather
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+\OT1/cmr/m/n/12 than the ac-tual
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
+[]\OT1/cmr/m/n/12 Array with null
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
+[]\OT1/cmr/m/n/12 an ex-cep-tion is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
+\OT1/cmr/m/n/12 thrown due to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+
+ []
+
+[15]
+Overfull \hbox (35.69644pt too wide) in paragraph at lines 215--215
+[]\OT1/cmr/bx/n/17.28 EXPERIMENTAL ANAL-Y-SIS AND ASYMP-TOTIC RUN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
+
+ []
+
+<growthRates.jpg, id=67, 477.28313pt x 122.25674pt>
+File: growthRates.jpg Graphic file (type jpg)
+ <use growthRates.jpg>
+Package pdftex.def Info: growthRates.jpg used on input line 221.
+(pdftex.def)             Requested size: 477.28195pt x 122.25644pt.
+
+Overfull \hbox (7.52693pt too wide) in paragraph at lines 221--222
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+
+ []
+
+<InsertBest.jpg, id=68, 378.81525pt x 227.6505pt>
+File: InsertBest.jpg Graphic file (type jpg)
+ <use InsertBest.jpg>
+Package pdftex.def Info: InsertBest.jpg used on input line 232.
+(pdftex.def)             Requested size: 378.81432pt x 227.64993pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
+
+ []
+
+[16 <./growthRates.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
+
+ []
+
+<InsertWorst.jpg, id=72, 376.70738pt x 227.6505pt>
+File: InsertWorst.jpg Graphic file (type jpg)
+ <use InsertWorst.jpg>
+Package pdftex.def Info: InsertWorst.jpg used on input line 242.
+(pdftex.def)             Requested size: 376.70645pt x 227.64993pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+
+ []
+
+[17 <./InsertBest.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+
+ []
+
+<InsertRandom.jpg, id=76, 381.22424pt x 226.74713pt>
+File: InsertRandom.jpg Graphic file (type jpg)
+ <use InsertRandom.jpg>
+Package pdftex.def Info: InsertRandom.jpg used on input line 252.
+(pdftex.def)             Requested size: 381.22331pt x 226.74657pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+
+ []
+
+[18 <./InsertWorst.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
+
+ []
+
+<MergeBest.jpg, id=80, 347.79938pt x 205.36725pt>
+File: MergeBest.jpg Graphic file (type jpg)
+ <use MergeBest.jpg>
+Package pdftex.def Info: MergeBest.jpg used on input line 266.
+(pdftex.def)             Requested size: 347.79852pt x 205.36674pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+
+ []
+
+[19 <./InsertRandom.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+
+ []
+
+<MergeWorst.jpg, id=85, 357.13425pt x 168.93112pt>
+File: MergeWorst.jpg Graphic file (type jpg)
+ <use MergeWorst.jpg>
+Package pdftex.def Info: MergeWorst.jpg used on input line 275.
+(pdftex.def)             Requested size: 357.13338pt x 168.9307pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+
+ []
+
+[20 <./MergeBest.jpg> <./MergeWorst.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
+
+ []
+
+<MergeRandom.jpg, id=89, 355.3275pt x 170.73787pt>
+File: MergeRandom.jpg Graphic file (type jpg)
+ <use MergeRandom.jpg>
+Package pdftex.def Info: MergeRandom.jpg used on input line 282.
+(pdftex.def)             Requested size: 355.32661pt x 170.73744pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
+
+ []
+
+<HeapBest.jpg, id=90, 350.20837pt x 168.02776pt>
+File: HeapBest.jpg Graphic file (type jpg)
+ <use HeapBest.jpg>
+Package pdftex.def Info: HeapBest.jpg used on input line 295.
+(pdftex.def)             Requested size: 350.2075pt x 168.02734pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
+
+ []
+
+[21 <./MergeRandom.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
+
+ []
+
+<HeapWorst.jpg, id=94, 354.42412pt x 173.14688pt>
+File: HeapWorst.jpg Graphic file (type jpg)
+ <use HeapWorst.jpg>
+Package pdftex.def Info: HeapWorst.jpg used on input line 303.
+(pdftex.def)             Requested size: 354.42325pt x 173.14645pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+
+ []
+
+[22 <./HeapBest.jpg> <./HeapWorst.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
+
+ []
+
+<HeapRandom.jpg, id=98, 361.65112pt x 173.448pt>
+File: HeapRandom.jpg Graphic file (type jpg)
+ <use HeapRandom.jpg>
+Package pdftex.def Info: HeapRandom.jpg used on input line 312.
+(pdftex.def)             Requested size: 361.65024pt x 173.44757pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--323
+
+ []
+
+<QuickBest.jpg, id=99, 358.03763pt x 205.06613pt>
+File: QuickBest.jpg Graphic file (type jpg)
+ <use QuickBest.jpg>
+Package pdftex.def Info: QuickBest.jpg used on input line 324.
+(pdftex.def)             Requested size: 358.03674pt x 205.06561pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
+
+ []
+
+[23 <./HeapRandom.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
+
+ []
+
+<QuickWorst.jpg, id=103, 350.5095pt x 205.9695pt>
+File: QuickWorst.jpg Graphic file (type jpg)
+ <use QuickWorst.jpg>
+Package pdftex.def Info: QuickWorst.jpg used on input line 334.
+(pdftex.def)             Requested size: 350.50865pt x 205.96898pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
+
+ []
+
+[24 <./QuickBest.jpg> <./QuickWorst.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
+
+ []
+
+<QuickRandom.jpg, id=107, 349.90726pt x 202.05487pt>
+File: QuickRandom.jpg Graphic file (type jpg)
+ <use QuickRandom.jpg>
+Package pdftex.def Info: QuickRandom.jpg used on input line 344.
+(pdftex.def)             Requested size: 349.90639pt x 202.05437pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
+
+ []
+
+[25 <./QuickRandom.jpg>] [26] (SortingAnalysis.txt
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 4.
+
+("C:\Users\owner\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 8.
+
+[27]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
+ [28]) [29]
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
+
+ []
+
+(insertionSortCode.txt [30] [31] [32] [33] [34]) [35]
+Underfull \hbox (badness 10000) in paragraph at lines 376--377
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--379
+
+ []
+
+(insertionSortDecreasing.txt [36] [37]) [38]
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
+
+ []
+
+(mergeSortCode.txt [39] [40] [41] [42] [43]) [44]
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--402
+
+ []
+
+(heapSortCode.txt [45] [46] [47]
+Overfull \hbox (43.74413pt too wide) in paragraph at lines 125--126
+[][] 
+ []
+
+
+Overfull \hbox (30.79411pt too wide) in paragraph at lines 130--131
+[][][][] 
+ []
+
+[48] [49]) [50]
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
+
+ []
+
+(quickSortCode.txt [51] [52] [53] [54] [55]) [56]
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
+
+ []
+
+
+Overfull \hbox (44.85956pt too wide) in paragraph at lines 427--428
+[]\OT1/cmr/m/n/12 [2]Heap sort. (n.d.). Re-trieved Febru-ary 14, 2016, from htt
+p://www.slideshare.net/saraeida/heap-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 427--428
+
+ []
+
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+
+Overfull \hbox (1.35315pt too wide) in paragraph at lines 429--430
+\OT1/cmr/m/n/12 rithms  Top-coder. Ac-cessed Jan-uary 31, 2016. https://www.top
+coder.com/community/data-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
+
+ []
+
+
+Overfull \hbox (140.09468pt too wide) in paragraph at lines 432--433
+[]\OT1/cmr/m/n/12 [4]Merge.java. (n.d.). Re-trieved Febru-ary 14, 2016, from ht
+tp://algs4.cs.princeton.edu/22mergesort/Merge.java.html 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 432--433
+
+ []
+
+
+Overfull \hbox (56.53119pt too wide) in paragraph at lines 434--435
+\OT1/cmr/m/n/12 gram-ming. April 01, 2008. Ac-cessed Jan-uary 31, 2016. http://
+www.nairaland.com/124053/importance-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
+
+ []
+
+[57] ("Programming Assignment 2.aux") ) 
+Here is how much of TeX's memory you used:
+ 4231 strings out of 493634
+ 58640 string characters out of 3135239
+ 265689 words of memory out of 3000000
+ 7524 multiletter control sequences out of 15000+200000
+ 13358 words of font info for 51 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 32i,11n,43p,1579b,1584s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/owner/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/owner/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/owne
+r/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+C:/Users/owner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmmi8.pfb><C:/Users/owner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><C:/Users/owner/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmr12.pfb><C:/Users/owner/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/owner/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/owner/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/User
+s/owner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb><C:/Users/owner/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmti12.pfb>
+Output written on "Programming Assignment 2.pdf" (57 pages, 2402243 bytes).
+PDF statistics:
+ 250 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+
